@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>D3 Tutorial</title>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+	</head>
+	<body>
+
+		<script type="text/javascript">
+			d3.select("body)
+			.append("p")
+			.text("Our First Paragraph using D3!")
+<!--			.style({"font-size":"40px","font-family":"arial"});-->
+
+<!--			var svgContainer = d3.select("body").append("svg")-->
+<!--			.attr("width",400)-->
+<!--			.attr("height",400)-->
+<!--			.style("border","1px solid black");-->
+<!--			var bars = svgContainer.selectAll("rect")-->
+<!--			.data(dataset).enter().append("rect").attr("width","25px")-->
+<!--			.attr("height",function(d){return d;});-->
+<!--			bars.attr("x", function (d,i) { return i*30; });-->
+
+
+
+
+
+<!--			var circles = svgContainer.selectAll("circle")-->
+<!--				.data(dataset)-->
+<!--				.enter()-->
+<!--				.append("circle")-->
+
+<!--			var circleAttributes = circles-->
+<!--				.attr("cx",100)-->
+<!--				.attr("cy", function (i) { return 400 / (i + 1) ; } )-->
+<!--				.attr("r",function (d) { return d ; })-->
+<!--				.style("fill","green");-->
+
+<!--			var p = d3.select("body").selectAll("p")-->
+<!--			.data(dataset)-->
+<!--			.enter()-->
+<!--			.append("p")-->
+<!--			.text(function(d) { return d; });-->
+
+<!--			var circle = d3.select("body").append("svg").attr("width",50)-->
+<!--			.attr("height",50).append("circle").attr("cx",25).attr("cy",25)-->
+<!--			.attr("r",25).style("fill","purple");-->
+
+		</script>
+
+	</body>
+</html>
+
+
+<!--function test (d) {-->
+<!--var addedNumber = 2;-->
+<!--var tempNumber;-->
+
+<!--tempNumber = d + addedNumber;-->
+<!--return tempNumber;-->
+<!--}-->
+
+<!--var theData = [1,2,3,4]-->
+<!--var p = d3.select("body").selectAll("p")-->
+<!--.data(theData)-->
+<!--.enter()-->
+<!--.append("p")-->
+<!--.text( function (d) { return d * d; } );-->
+
+
+<!--circleRadii = [40, 20, 10]-->
+
+<!-- var svgContainer = d3.select("body").append("svg")-->
+<!--                                     .attr("width", 600)-->
+<!--                                     .attr("height", 100);-->
+
+<!-- var circles = svgContainer.selectAll("circle")-->
+<!--                           .data(circleRadii)-->
+<!--                           .enter()-->
+<!--                          .append("circle")-->
+
+<!--var circleAttributes = circles-->
+<!--                       .attr("cx", 50)-->
+<!--                       .attr("cy", 50)-->
+<!--                       .attr("r", function (d) { return d; })-->
+<!--                       .style("fill", function(d) {-->
+<!--                         var returnColor;-->
+<!--                         if (d === 40) { returnColor = "green";-->
+<!--                         } else if (d === 20) { returnColor = "purple";-->
+<!--                         } else if (d === 10) { returnColor = "red"; }-->
+<!--                         return returnColor;-->
+<!--                       });-->
